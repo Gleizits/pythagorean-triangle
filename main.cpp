@@ -6,13 +6,14 @@ using namespace std;
 int main()
 {
     system("color F");
-    cout<<"Pythagorean triangle"<<endl<<endl;
+    cout<<"\t\t\tPythagorean triangle"<<endl<<endl;
     float a,b,c;
     cout<<"Enter the first leg:"<<endl;
     cin>>a;
     cout<<"Enter the second leg:"<<endl;
     cin>>b;
     c=sqrt(pow(a,2)+pow(b,2));
+    system("cls");
     cout<<"The hypotenuse is:"<<"\n"<<c<<endl<<endl;
     cout<<"\t"<<"_\\"<<endl;
     cout<<"\t"<<"___\\"<<endl;
